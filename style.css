@@ -41,11 +41,27 @@ section{
     font-family: 'Sriracha', cursive;
 }
 section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.253);
     background-color:rgba(128, 128, 128, 0.258)
 }
 section.imagem > p{
     width: 400px;
+    text-shadow: 1px 1px 0px black;
     background-color: rgba(0, 0, 0, 0.084);
+    color: white;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section#img001{
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-attachment:fixed;
+}
+section#img002{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-attachment:fixed;
 }
 footer{
     padding: 4px;
