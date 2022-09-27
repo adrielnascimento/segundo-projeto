@@ -11,7 +11,7 @@ body{
 }
 header{
     background-color: black;
-    height: 228px;
+    height: 250px;
 }
 header > h1{
     font-family: 'Passion One', cursive;
@@ -39,6 +39,9 @@ section{
     padding-top: 10vh;
     font-size: 2em;
     font-family: 'Sriracha', cursive;
+}
+section.imagem{
+    background-color:rgba(128, 128, 128, 0.258)
 }
 section.imagem > p{
     width: 400px;
